@@ -1,5 +1,9 @@
-require "whatnow/version"
+require 'whatnow/engine'
 
 module Whatnow
-  # Your code goes here...
+  def self.setup
+    yield self
+  end
+
+  mattr_accessor :auth_method, :user_model
 end
