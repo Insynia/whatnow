@@ -1,9 +1,14 @@
+[![Gem Version](https://badge.fury.io/rb/user_notif.svg)](https://badge.fury.io/rb/whatnow)
+[![Build Status](https://travis-ci.org/Insynia/user_notif.svg?branch=master)](https://travis-ci.org/Insynia/whatnow)
+[![Coverage Status](https://coveralls.io/repos/github/Insynia/user_notif/badge.svg?branch=master)](https://coveralls.io/github/Insynia/whatnow?branch=master)
+[![Code Climate](https://codeclimate.com/github/Insynia/user_notif/badges/gpa.svg)](https://codeclimate.com/github/Insynia/whatnow)
+[![Dependency Status](https://gemnasium.com/badges/github.com/Insynia/user_notif.svg)](https://gemnasium.com/github.com/Insynia/whatnow)
+[![security](https://hakiri.io/github/Insynia/user_notif/master.svg)](https://hakiri.io/github/Insynia/whatnow/master)
+
 # What now ?!
 
 "What now ?!" is (well, will be) an out of the box working gem built to help your products reviewers... review your product.
 Being a reviewer, you just have to click on elements on the website and add your questions/comments and allow people to reply until the point is marked as resolved.
-
-Well, that's it.
 
 ## Installation
 
