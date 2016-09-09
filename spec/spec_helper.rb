@@ -17,7 +17,9 @@ SimpleCov.at_exit do
   SimpleCov.result.format!
 end
 
-SimpleCov.start
+SimpleCov.start do
+  add_filter 'spec/dummy'
+end
 
 # Tests
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
