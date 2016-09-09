@@ -1,7 +1,5 @@
-#require_dependency "whatnow/application_controller"
-
 module Whatnow
-  class WhatnowsController < ApplicationController
+  class ReviewsController < ApplicationController
     before_action :set_review, only: [:show, :edit, :update, :destroy]
 
     # GET /reviews

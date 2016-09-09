@@ -1,6 +1,6 @@
-class CreateReviews < ActiveRecord::Migration
+class CreateWhatnowReviews < ActiveRecord::Migration
   def change
-    create_table :reviews do |t|
+    create_table :whatnow_reviews do |t|
       t.string :url, index: true, null: false
       t.boolean :resolved, index: true, default: false
       t.text :uid, null: false
@@ -8,9 +8,8 @@ class CreateReviews < ActiveRecord::Migration
       t.timestamps
     end
 
-    create_table :review_replies do |t|
-      t.column :parent_id, index: true
-      t.reference :review, foreign_key: true
+    create_table :whatnow_review_replies do |t|
+      t.belongs_to :whatnow_review
       t.text :comment, null: false
       t.timestamps
     end

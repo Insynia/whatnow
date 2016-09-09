@@ -9,8 +9,8 @@ module Whatnow
     argument :name, type: :string, default: 'create_whatnow'
 
     def copy_files
-      migration_template 'create_whatnows.rb', 'db/migrate/create_reviews.rb'
-      copy_file 'initializer.rb', 'config/initializers/review.rb'
+      migration_template 'create_whatnow_reviews.rb', 'db/migrate/create_whatnow_reviews.rb'
+      copy_file 'initializer.rb', 'config/initializers/whatnow.rb'
     end
   end
 end
